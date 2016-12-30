@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <WebView
+        android:id="@+id/activity_campus_map_webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#99000000"
+        android:orientation="vertical"
+
+        >
+
+        <TextView
+            android:id="@+id/activity_campus_map_rushName"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:text="@string/app_name"
+            android:layout_gravity="center"
+            android:textColor="#FFF"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            >
+            <TextView
+                android:id="@+id/activity_campus_map_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/test_string"
+                android:layout_gravity="center"
+                android:textColor="#fff"
+                />
+
+            <View
+                android:layout_marginTop="3dp"
+                android:layout_width="1dp"
+                android:layout_height="15dp"
+                android:background="#fff"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                />
+
+
+            <TextView
+                android:id="@+id/activity_campus_map_rushLocation"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/test_string"
+                android:layout_gravity="center"
+                android:textColor="#FFF"
+                />
+
+
+            <View
+                android:layout_marginTop="3dp"
+                android:layout_width="1dp"
+                android:layout_height="15dp"
+                android:background="#fff"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                />
+
+
+
+            <TextView
+                android:id="@+id/activity_campus_map_time"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/test_string"
+                android:layout_gravity="center"
+                android:textColor="#FFF"
+                />
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#fff"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            />
+
+        <TextView
+            android:id="@+id/activity_campus_map_rushDescription"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/test_string"
+            android:textColor="#FFF"
+            />
+
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E0E0E0"
+        android:id="@+id/activity_campus_map_progressBar"
+        android:clickable="true"
+        >
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:indeterminateOnly="true"/>
+    </FrameLayout>
+
+
+</RelativeLayout>

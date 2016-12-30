@@ -1,0 +1,121 @@
+{
+  "project_info": {
+    "project_number": "1016395744751",
+    "firebase_url": "https://tau-psi-omega.firebaseio.com",
+    "project_id": "tau-psi-omega",
+    "storage_bucket": "tau-psi-omega.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1016395744751:android:d914fdc37ed9c6ad",
+        "android_client_info": {
+          "package_name": "com.asutaupsi.taupsi.live"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1016395744751-35vsj0qurblbmv0gr780i30s2kl7cumv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.asutaupsi.taupsi.live",
+            "certificate_hash": "EB623152DE69409BC3E1D74864ECD0DC4A1232BD"
+          }
+        },
+        {
+          "client_id": "1016395744751-ejf9son6ke7ood3rm6ehn19optccsmmr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.asutaupsi.taupsi.live",
+            "certificate_hash": "289994522BBBED2BA697B90D011E5774CCC3BBB1"
+          }
+        },
+        {
+          "client_id": "1016395744751-sgidqhtot016qo7nmu0kvsa4224eogrg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJuK1Hp5fXtgte7ynqWrHZFzaJIxgAdq0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1016395744751-v3fktvn43f8ul19uk2ho4101v2u558e7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "GappDev.RushTPO"
+              }
+            },
+            {
+              "client_id": "1016395744751-sgidqhtot016qo7nmu0kvsa4224eogrg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1016395744751:android:1a622df39d17428e",
+        "android_client_info": {
+          "package_name": "beastandroiddev.rushtpo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1016395744751-h88ofu03br9c1buiq31tftich77l2rom.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "beastandroiddev.rushtpo",
+            "certificate_hash": "4808F40EF32ADBFF4EA44632E658A3004FA52BF4"
+          }
+        },
+        {
+          "client_id": "1016395744751-sgidqhtot016qo7nmu0kvsa4224eogrg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJuK1Hp5fXtgte7ynqWrHZFzaJIxgAdq0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1016395744751-v3fktvn43f8ul19uk2ho4101v2u558e7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "GappDev.RushTPO"
+              }
+            },
+            {
+              "client_id": "1016395744751-sgidqhtot016qo7nmu0kvsa4224eogrg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

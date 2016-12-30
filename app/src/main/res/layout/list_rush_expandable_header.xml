@@ -1,0 +1,39 @@
+<android.support.v7.widget.CardView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    app:cardUseCompatPadding= "true"
+    android:layout_margin = "3dp"
+    app:contentPadding="2dp"
+    app:cardBackgroundColor="#4D757575">
+
+    <RelativeLayout
+        android:id="@+id/list_rush_expandable_header_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/rush_card_background">
+
+        <TextView
+            android:id="@+id/list_rush_expandable_header_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textStyle="bold"
+            android:textColor="#000" />
+
+        <ImageButton
+            android:id="@+id/list_rush_expandable_header_button"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:src="@mipmap/ic_plus" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
